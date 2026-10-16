@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Production builds & compiled artifacts
+dist/
+build/
+*/dist/
+*/build/
+coverage/
+
+# Logs & OS metadata
+*.log
+.DS_Store
+Thumbs.db
+
+# Executables & large binaries
+*.exe
+Antigravity-x64.exe
+
+# Environment variables & secrets (allow .env.example templates)
+.env*
+!.env.example
+*/.env*
+!*/.env.example
+
+# R session history & local caches
+.Rhistory
+.RData
