@@ -6,6 +6,7 @@ node_modules/
 dist/
 build/
 */dist/
+!scu files/dist/
 */build/
 coverage/
 

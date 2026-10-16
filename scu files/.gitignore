@@ -1,6 +1,7 @@
 node_modules/
 build/
-dist/
+# dist is included so Streamlit Cloud can serve the pre-built frontend without Node
+!dist/**
 coverage/
 .DS_Store
 *.log
